@@ -68,6 +68,10 @@ Table of Contents:
         * http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
         * http://blog.f1000research.com/2014/11/11/what-is-open-science/
 
+    * How can open source produce **better** software than firms?
+        * https://github.com/
+        * https://www.moore.org/newsroom/press-releases/2015/07/07/$6m-for-uc-berkeley-and-cal-poly-to-expand-and-enhance-open-source-software-for-scientific-computing-and-data-science
+
 
 
 #### Coding 101
@@ -148,17 +152,13 @@ Table of Contents:
     * http://bender.astro.sunysb.edu/classes/python-science/
     * http://computationalmodelling.bitbucket.org/tools/
 
-* NumPy and SciPy  
+* [NumPy and SciPy](http://www.scipy.org/)
     * http://quant-econ.net/py/numpy.html
     * http://quant-econ.net/py/scipy.html
 
-* Jupyter 
-    * http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb
-    * http://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
-    * https://www.moore.org/newsroom/press-releases/2015/07/07/$6m-for-uc-berkeley-and-cal-poly-to-expand-and-enhance-open-source-software-for-scientific-computing-and-data-science
-    * my live notebooks for emet book
-    * https://github.com/jupyter/jupyterhub
+* [Jupyter](http://jupyter.org/)
     * http://nbviewer.ipython.org/
+    * http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb
     * http://mindtrove.info/#nb-extensions
     * https://plot.ly/ipython-notebooks/ipython-notebook-tutorial/
     * https://github.com/nicolaskruchten/pyconca/blob/master/jupyter_magic.ipynb
@@ -363,9 +363,11 @@ Good projects demonstrate proficiency with
 * Jupyter
     * https://github.com/bloomberg/bqplot
     * https://cloud.google.com/datalab/
+    * http://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
     * https://github.com/lambdalisue/jupyter-vim-binding
     *  https://github.com/jupyter/jupyterhub
     *  http://mybinder.org/
+    * https://github.com/jupyter/jupyterhub
 
 * Language comparisons
     * http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
