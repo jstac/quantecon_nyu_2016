@@ -194,18 +194,20 @@ Table of Contents:
 #### Functional Analysis
 
 * Metric / Banach / Hilbert space
-    - L2
     - Space of bounded functions (cbS is a closed subset)
-
+    - The Lp spaces
 * Banach contraction mapping theorem
+* Orthogonal projections
 * Neumann series lemma
 
 
 #### Markov Dynamics I: Finite State
 
-* Finite MCs and Daisuke's code
-    - The Dobrushin coefficient
-    - A simple coupling argument
+* Finite MCs 
+    * Asymptotics
+    * The Dobrushin coefficient
+    * A simple coupling argument
+    * Code from QuantEcon
 
 
 #### Markov Dynamics II: General State
@@ -214,10 +216,10 @@ Table of Contents:
     - Feller chains, Boundedness in prob
     - Monotone methods
 * LLN and CLT
-* applications like ARCH, poverty traps, STAR, MCMC
+* Applications like ARCH, poverty traps, STAR, MCMC
 * Look ahead method
     - examples in lae_extension?
-    - examples in poverty traps survey??
+    - examples in poverty traps survey?
 
 
 
@@ -228,27 +230,25 @@ Table of Contents:
     * The principle of optimality
     * VFI
     * Howard's policy iteration algorithm
-
 * Approximation
     * Preserving the contraction property
     * MC for integrals
-
-* Applications (see TE paper, monotone LLN)
+* Weighted sup norm approach
 
 
 
 ### Part III: Applications
 
 
-#### DP II: Extensions
-
-* Weighted sup norm approach
+#### DP II: Applications and Extensions
 
 * The Coleman operator
-    * Benhabib wealth dist heavy tails
-
+    * [The income fluctuation problem](http://quant-econ.net/py/ifp.html)
+    * Benhabib wealth distribution paper, heavy tails
 * Recursive and risk sensitive preferences
-    * Stochastic Optimal Growth Model with Risk Sensitive Preferences N Bäuerle, A Jaśkiewicz - arXiv preprint arXiv:1509.05638, 2015
+    * [Stochastic Optimal Growth Model with Risk Sensitive Preferences](http://arxiv.org/abs/1509.05638)
+* Other (see TE paper, monotone LLN)
+
 
 
 #### Solving Forward Looking Models
@@ -276,31 +276,18 @@ Table of Contents:
 
 
 
-
-
-
-
-
 ## Assessment
 
 The full details are yet to be filled in but the marks will be spread across
 
 * A class project, options for which include
-
     * Replicate some published research in Python or Julia
-
     * Investigate a topic of your own interest
-
 * Presentations
-
     1. A library or programming topic 
-
-    1. Your class project, towards the end of the course
-
+    2. Your class project, towards the end of the course
 * Homework assignments
-
 * Participation 
-    
     * Attending presentations of your classmates
 
 
@@ -309,16 +296,14 @@ The full details are yet to be filled in but the marks will be spread across
 A completed class project is a GitHub repository containing
 
 * Code
-
-* A PDF document that looks like a short research paper describing the
-  project, providing analysis and reporting results
+* A Jupyter notebook that pulls all the code together and runs it
+* A PDF document that provides analysis and reports results
+    * like a short research paper
 
 Good projects demonstrate proficiency with 
 
 * good programming style
-
 * techical material discussed in the coure
-
 
 
 
