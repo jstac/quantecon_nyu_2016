@@ -1,8 +1,25 @@
-# quantecon_nyu_2016
-Quantitative Economics
 
-Intro
-======
+# quantecon_nyu_2016
+
+This is the home page of the course on computational economics I'll be taking
+at NYU in the spring semester of 2016.  
+
+[Syllabus](##syllabus)
+
+## Syllabus 
+
+
+
+### Part I: Programming Concepts and Techniques
+
+####
+
+
+
+## Resources
+
+
+## Intro
 
 What makes a good scientific programming environment?  Suggestions?
 
