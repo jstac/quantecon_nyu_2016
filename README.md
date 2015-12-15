@@ -37,19 +37,25 @@ Table of Contents:
 * Why Python?  And what is it anyway?
 
     * Background
+        * http://quant-econ.net/py/about_py.html
         * http://www.galvanize.com/blog/2015/10/01/bill-and-melinda-gates-foundation-saves-lives-with-python/
-
-    * Automation
-        * https://github.com/jstac/backup_scripts
 
     * Philosophy
         * import this, import antigravity
         * http://legacy.python.org/dev/peps/pep-0020/
         * https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
 
+    * Automation and glue language
+        * https://github.com/jstac/backup_scripts
+
+
 * What's Julia?
 
-* Open source -- the good, the bad and the ugly
+    * http://julialang.org/blog/2012/02/why-we-created-julia/
+    * http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html
+
+
+* Open Source 
 
     * Examples of how contributions improve on standard library
 
@@ -105,13 +111,18 @@ Table of Contents:
 
 #### Core Python
 
-* Basic syntax
-
 * The REPLs: 
     * Python and IPython shells
     * The beauty of introspection on the fly
 
-* Why OOP?  It's like structs with lazy evaluation
+* Basic syntax
+    * http://quant-econ.net/py/python_by_example.html
+    * http://quant-econ.net/py/python_essentials.html
+
+* OOP. It's like structs with lazy evaluation
+    * http://quant-econ.net/py/python_oop.html
+    * http://quant-econ.net/py/python_foundations.html
+    * http://quant-econ.net/py/python_advanced_features.html
 
 * Python style
     * https://blog.hartleybrody.com/python-style-guide/
@@ -138,20 +149,17 @@ Table of Contents:
     * http://computationalmodelling.bitbucket.org/tools/
 
 * NumPy and SciPy  
+    * http://quant-econ.net/py/numpy.html
+    * http://quant-econ.net/py/scipy.html
 
-* Jupyter and IPython 
+* Jupyter 
     * http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb
     * http://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
     * https://www.moore.org/newsroom/press-releases/2015/07/07/$6m-for-uc-berkeley-and-cal-poly-to-expand-and-enhance-open-source-software-for-scientific-computing-and-data-science
-    *  https://github.com/jupyter/jupyterhub
-    *  http://mybinder.org/
     * my live notebooks for emet book
     * https://github.com/jupyter/jupyterhub
     * http://nbviewer.ipython.org/
-    * https://github.com/bloomberg/bqplot
-    * https://github.com/lambdalisue/jupyter-vim-binding
     * http://mindtrove.info/#nb-extensions
-    * https://cloud.google.com/datalab/
     * https://plot.ly/ipython-notebooks/ipython-notebook-tutorial/
     * https://github.com/nicolaskruchten/pyconca/blob/master/jupyter_magic.ipynb
 
@@ -201,9 +209,6 @@ Table of Contents:
 
 #### Julia
 
-* Intro
-    * http://julialang.org/blog/2012/02/why-we-created-julia/
-    * http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html
 
 * General
     * http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
@@ -355,25 +360,25 @@ Good projects demonstrate proficiency with
 
 ## Additional Resources
 
-Matlab vs NumPy
-    http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
-    http://scottsievert.github.io/blog/2015/09/01/matlab-to-python/
+* Jupyter
+    * https://github.com/bloomberg/bqplot
+    * https://cloud.google.com/datalab/
+    * https://github.com/lambdalisue/jupyter-vim-binding
+    *  https://github.com/jupyter/jupyterhub
+    *  http://mybinder.org/
 
+* Language comparisons
+    * http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
+    * http://scottsievert.github.io/blog/2015/09/01/matlab-to-python/
+    * https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en
 
-Must watch vids:
-https://github.com/s16h/py-must-watch
-
-
-Discussion of Python
-http://bruceeckel.github.io/2015/08/29/what-i-do/
+* Python, general 
+    * https://github.com/s16h/py-must-watch
+    * https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
+    * http://bruceeckel.github.io/2015/08/29/what-i-do/
 
 Vectorization:
-http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
-
-Discussion of speed:
-https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
+    * http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
 
 
-Julia vs Python and Python optimization resources 
-    * https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en
 
