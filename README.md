@@ -75,33 +75,26 @@ Table of Contents:
 * UNIX and the UNIX shell
     * http://swcarpentry.github.io/shell-novice/
     * http://swcarpentry.github.io/make-novice/
-
 * Editing = Vim
     * https://danielmiessler.com/study/vim/
     * https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
     * http://vim-adventures.com/
     * http://www.openvim.com/
-
 * Tmux
     * http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/
-
 * Version control
     * https://github.com/swcarpentry/git-novice
     * http://gitimmersion.com/
     * http://luisbg.blogalia.com//historias/76017 --- Git cheatsheet
-
 * General software engineering skills
     * http://software-carpentry.org/
-
 * Speed and Efficiency
     * Hardware
     * Interpreted / JIT compiled / AOT compiled
     * Vectorized code
-
 * C and Fortran
     * GSL
     * http://computationalmodelling.bitbucket.org/tools/FORTRAN.html
-
 * Test driven development: 
     * http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137
 
@@ -112,29 +105,22 @@ Table of Contents:
 * The REPLs: 
     * Python and IPython shells
     * The beauty of introspection on the fly
-
 * Basic syntax
     * http://quant-econ.net/py/python_by_example.html
     * http://quant-econ.net/py/python_essentials.html
-
 * OOP. It's like structs with lazy evaluation
     * http://quant-econ.net/py/python_oop.html
     * http://quant-econ.net/py/python_foundations.html
     * http://quant-econ.net/py/python_advanced_features.html
-
 * Python style
     * https://blog.hartleybrody.com/python-style-guide/
     * https://google.github.io/styleguide/pyguide.html
     * https://www.python.org/dev/peps/pep-0008/
-
 * Other general Python resources
- 
     * https://leanpub.com/intermediatepython/read
     * http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb
     * http://book.pythontips.com/en/latest/
-
 * Debugging 
-
     * http://www.scipy-lectures.org/advanced/debugging/
 
 
@@ -144,11 +130,9 @@ Table of Contents:
     * https://github.com/jrjohansson/scientific-python-lectures
     * http://bender.astro.sunysb.edu/classes/python-science/
     * http://computationalmodelling.bitbucket.org/tools/
-
 * [NumPy and SciPy](http://www.scipy.org/)
     * http://quant-econ.net/py/numpy.html
     * http://quant-econ.net/py/scipy.html
-
 * [Jupyter](http://jupyter.org/)
     * http://nbviewer.ipython.org/
     * http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb
@@ -161,41 +145,31 @@ Table of Contents:
 
 * Sympy
     * http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/SymPy.ipynb
-
 * Webscraping 
     * http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
-
 * Pandas 
     * http://geoffboeing.com/2015/11/landscape-us-rents/
-
 * Visualization
     * Matplotlib, plotly, Bokeh
     * http://nbviewer.ipython.org/github/clbarnes/plotstyles/blob/master/plotstyles.ipynb
-
 * Statistics and machine learning
   * https://www.youtube.com/watch?v=5W715nfJNJw
   * PyMC, Statsmodels
   * http://scikit-learn.org/stable/related_projects.html
   * https://www.youtube.com/watch?v=L7R4HUQ-eQ0&feature=youtu.be
   * Seaborn
-
 * Parallel processing 
     http://ufora.github.io/ufora/
-
 * Blaze? 
-
 * AOT compilers
     * Cython
     * Nuitka
-
 * Numba and other JIT compilers 
     * http://blog.pyston.org/2015/11/03/102/
     * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
-
 * Wrappers
     * https://github.com/wjakob/pybind11
     * f2py and related solutions (https://www.euroscipy.org/2015/schedule/presentation/58/)
-
 * NetworkX
 
 
@@ -207,12 +181,9 @@ Table of Contents:
     * http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
     * http://www.slideshare.net/acidflask/an-introduction-to-julia
     * http://computationalmodelling.bitbucket.org/tools/Julia.html
-
 * Libraries
     * Distributions.jl 
     * Gadfly
-
-
 
 
 
