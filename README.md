@@ -124,7 +124,7 @@ Table of Contents:
     * http://www.scipy-lectures.org/advanced/debugging/
 
 
-#### Scientific Python I: Core Libraries
+#### Scientific Python I: SciPy and Friends 
 
 * General Resources
     * https://github.com/jrjohansson/scientific-python-lectures
@@ -139,19 +139,23 @@ Table of Contents:
     * http://mindtrove.info/#nb-extensions
     * https://plot.ly/ipython-notebooks/ipython-notebook-tutorial/
     * https://github.com/nicolaskruchten/pyconca/blob/master/jupyter_magic.ipynb
+* [Matplotlib](http://matplotlib.org/)
+    * http://quant-econ.net/py/matplotlib.html
+    * http://nbviewer.ipython.org/github/clbarnes/plotstyles/blob/master/plotstyles.ipynb
 
 
 #### Scientific Python II: The Ecosystem
 
-* Sympy
-    * http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/SymPy.ipynb
-* Webscraping 
-    * http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
 * Pandas 
     * http://geoffboeing.com/2015/11/landscape-us-rents/
+* Numba and other JIT compilers 
+    * http://blog.pyston.org/2015/11/03/102/
+    * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
+* AOT compilers
+    * Cython
+    * Others (Nuitka?)
 * Visualization
-    * Matplotlib, plotly, Bokeh
-    * http://nbviewer.ipython.org/github/clbarnes/plotstyles/blob/master/plotstyles.ipynb
+    * Plotly, Bokeh
 * Statistics and machine learning
   * https://www.youtube.com/watch?v=5W715nfJNJw
   * PyMC, Statsmodels
@@ -161,16 +165,14 @@ Table of Contents:
 * Parallel processing 
     http://ufora.github.io/ufora/
 * Blaze? 
-* AOT compilers
-    * Cython
-    * Nuitka
-* Numba and other JIT compilers 
-    * http://blog.pyston.org/2015/11/03/102/
-    * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
 * Wrappers
     * https://github.com/wjakob/pybind11
     * f2py and related solutions (https://www.euroscipy.org/2015/schedule/presentation/58/)
 * NetworkX
+* Sympy
+    * http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/SymPy.ipynb
+* Webscraping 
+    * http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
 
 
 
