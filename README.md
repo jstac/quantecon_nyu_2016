@@ -4,12 +4,6 @@
 This is the home page of the course on computational economics I'll be taking
 at NYU in the spring semester of 2016.  
 
-Table of Contents:
-
-* [Syllabus](#syllabus)
-* [Assessment](#assessment)
-* [Additional Resources](#resources)
-
 Semi-Random quote
 
 >   All this technology  carries risk. There is no faster way for a trading
@@ -18,6 +12,15 @@ Semi-Random quote
 >   reaction to these  technological risks was to put a very strong focus on
 >   building software  that was easily understood--software that was readable.
 >   -- Yaron  Minsky, Jane Street
+
+Table of Contents:
+
+* [Syllabus](#syllabus)
+    * [Part I: Programming](#part-i-programming)
+    * [Part II: Comp Econ Foundations](#part-ii-comp-econ-foundations)
+    * [Part III: Applications](#part-iii-applications)
+* [Assessment](#assessment)
+* [Additional Resources](#additional-resources)
 
 
 
