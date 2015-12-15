@@ -27,15 +27,10 @@ Table of Contents:
 ## References
 
 * http://quant-econ.net/
-
 * Secondary / Useful / Related / Recommended texts
-
     * Kendall Atkinson and Weimin Han (2009). *Theoretical Numerical Analysis* (3rd ed)
-
     * Ward Cheney (2001).  *Analysis for Applied Mathematics* 
-
     * Nancy Stokey and Robert Lucas Jr. (1989) *Recursive Methods in Economic Dynamics*
-
     * John Stachurski (2009).  *Economic Dynamics: Theory and Computation* 
 
 
@@ -48,41 +43,27 @@ Table of Contents:
 #### Introduction
 
 * Scientific programming environments --- what do we want?
-
-* Why Python?  And what is it anyway?
-
+* Why [Python](https://www.python.org/)?  And what is it anyway?
     * Background
         * http://quant-econ.net/py/about_py.html
         * http://www.galvanize.com/blog/2015/10/01/bill-and-melinda-gates-foundation-saves-lives-with-python/
-
     * Philosophy
-        * import this, import antigravity
         * http://legacy.python.org/dev/peps/pep-0020/
-        * https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
-
-    * Automation and glue language
+        * [import antigravity](http://python-history.blogspot.com/2010/06/import-antigravity.html)
+        * https://gist.github.com/sloria/7001839
+    * The second best language for everything
         * https://github.com/jstac/backup_scripts
-
-
 * What's Julia?
-
     * http://julialang.org/blog/2012/02/why-we-created-julia/
     * http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html
-
-
 * Open Source 
-
     * Examples of how contributions improve on the standard library
-
         * http://docs.python-requests.org/en/latest/
         * https://python-programming.courses/general/better-date-and-time-handling-with-arrow/
-
     * Open science
-
         * http://devblogs.nvidia.com/parallelforall/open-reproducible-computational-chemistry-python-cuda/
         * http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
         * http://blog.f1000research.com/2014/11/11/what-is-open-science/
-
     * How can open source produce **better** software than firms acting alone?
         * https://github.com/
         * https://www.moore.org/newsroom/press-releases/2015/07/07/$6m-for-uc-berkeley-and-cal-poly-to-expand-and-enhance-open-source-software-for-scientific-computing-and-data-science
@@ -148,14 +129,13 @@ Table of Contents:
 
 * Other general Python resources
  
-    * https://gist.github.com/sloria/7001839
     * https://leanpub.com/intermediatepython/read
     * http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb
     * http://book.pythontips.com/en/latest/
-    * http://noeticforce.com/best-free-tutorials-to-learn-python-pdfs-ebooks-online-interactive
-    * blog.apcelent.com/python-decorator-tutorial-with-example.html
 
 * Debugging 
+
+    * http://www.scipy-lectures.org/advanced/debugging/
 
 
 #### Scientific Python I: Core Libraries
@@ -388,9 +368,12 @@ Good projects demonstrate proficiency with
     * https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en
 
 * Python, general 
+    * https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
     * https://github.com/s16h/py-must-watch
     * https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
     * http://bruceeckel.github.io/2015/08/29/what-i-do/
+    * http://blog.apcelent.com/python-decorator-tutorial-with-example.html
+    * http://noeticforce.com/best-free-tutorials-to-learn-python-pdfs-ebooks-online-interactive
 
 Vectorization:
     * http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
