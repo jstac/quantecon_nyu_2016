@@ -219,11 +219,6 @@ Semi-Random quote
 
 
 
-
-
-### Part III: Applications
-
-
 #### Functional Analysis
 
 * Metric / Banach / Hilbert space
@@ -253,17 +248,24 @@ Semi-Random quote
     - examples in poverty traps survey??
 
 
+
+
 #### Dynamic Programming
 
 * Fundamental theory
-    - The principle of optimality
-    - VFI
-    - Howard's policy iteration algorithm
+    * The principle of optimality
+    * VFI
+    * Howard's policy iteration algorithm
+
 * Approximation
-    - Preserving the contraction property
-    - MC for integrals
+    * Preserving the contraction property
+    * MC for integrals
 
 * Applications (see TE paper, monotone LLN)
+
+
+
+### Part III: Applications
 
 
 #### DP II: Extensions
