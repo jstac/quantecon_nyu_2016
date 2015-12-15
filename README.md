@@ -4,7 +4,20 @@
 This is the home page of the course on computational economics I'll be taking
 at NYU in the spring semester of 2016.  
 
-[Syllabus](##syllabus)
+Table of Contents:
+
+* [Syllabus](#syllabus)
+* [Resources](#resources)
+
+Semi-Random quote
+
+>   All this technology  carries risk. There is no faster way for a trading
+>   firm to destroy itself  than to deploy a piece of trading software that
+>   makes a bad decision over and over in a tight loop. Part of Jane Street's
+>   reaction to these  technological risks was to put a very strong focus on
+>   building software  that was easily understood--software that was readable.
+>   -- Yaron  Minsky, Jane Street
+
 
 ## Syllabus 
 
@@ -12,34 +25,22 @@ at NYU in the spring semester of 2016.
 
 ### Part I: Programming Concepts and Techniques
 
-####
+
+#### Introduction
+
+What makes a good scientific programming environment?  
+
+* speed
+* productivity
+* large network / ecosystem / many libraries
+* scalability
+* fun
+* readability 
 
 
 
-## Resources
+#### What's Python?  What's Julia
 
-
-## Intro
-
-What makes a good scientific programming environment?  Suggestions?
-
-- speed
-- productivity
-- large network / many libraries
-- scalability?
-- fun
-- Readability: 
-    All this technology  carries risk. There is no faster way for a trading
-    firm to destroy itself  than to deploy a piece of trading software that
-    makes a bad decision over and over in a tight loop. Part of Jane Street's
-    reaction to these  technological risks was to put a very strong focus on
-    building software  that was easily understood—software that was readable.
-    -- Yaron  Minsky, Jane Street
-
-
-
-What is Python?
-====================
 
 zen of Python
     * and follow ups: https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
@@ -260,24 +261,6 @@ http://computationalmodelling.bitbucket.org/tools/FORTRAN.html
 
 
 
-Resources
-============
-
-Must watch vids:
-https://github.com/s16h/py-must-watch
-
-Julia
-http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
-
-Discussion of Python
-http://bruceeckel.github.io/2015/08/29/what-i-do/
-
-Vectorization:
-http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
-
-Discussion of speed:
-https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
-
 
 
 
@@ -375,22 +358,61 @@ APS
 
 
 
-Course Structure and Assessment
-=================================
+## Assessment
 
-** Presentations
+The full details are yet to be filled in but the marks will be spread across
 
-- Everyone presents 
-    * a library / programming topic 
-    * their project, at the end of the course
-        - choose length of presentations acc to amount of time remaining
+* A class project, options for which include
 
--- aim is to communicate, not to be clever
+    * Replicate some published research in Python or Julia
 
-** Marks for 
+    * Investigate a topic of your own interest
 
-* presentations
-* participation at presentations
-* one project
+* Presentations
 
-Good projects show proficiency with techical material discussed above
+    1. A library or programming topic 
+
+    1. Your class project, towards the end of the course
+
+* Homework assignments
+
+* Participation 
+    
+    * Attending presentations of your classmates
+
+
+##### Notes
+
+A completed class project is a GitHub repository containing
+
+* Code
+
+* A PDF document that looks like a short research paper describing the
+  project, providing analysis and reporting results
+
+Good projects demonstrate proficiency with 
+
+* good programming style
+
+* techical material discussed in the coure
+
+
+
+## Resources
+
+
+Must watch vids:
+https://github.com/s16h/py-must-watch
+
+Julia
+http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
+
+Discussion of Python
+http://bruceeckel.github.io/2015/08/29/what-i-do/
+
+Vectorization:
+http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
+
+Discussion of speed:
+https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
+
