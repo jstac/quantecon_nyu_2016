@@ -1,8 +1,7 @@
 
 # QUANTECON_NYU_2016
 
-This is the home page of the course on computational economics I'll be taking
-at NYU in the spring semester of 2016.  
+This is the home page of the course on computational economics [I'll](http://johnstachurski.net/) be taking at NYU in the spring semester of 2016.  
 
 Semi-Random quote
 
@@ -13,8 +12,10 @@ Semi-Random quote
 >   building software  that was easily understood--software that was readable.
 >   -- Yaron  Minsky, Jane Street
 
+
 Table of Contents:
 
+* [References](#references)
 * [Syllabus](#syllabus)
     * [Part I: Programming](#part-i-programming)
     * [Part II: Comp Econ Foundations](#part-ii-comp-econ-foundations)
@@ -22,6 +23,20 @@ Table of Contents:
 * [Assessment](#assessment)
 * [Additional Resources](#additional-resources)
 
+
+## References
+
+* http://quant-econ.net/
+
+* Secondary / Useful / Related / Recommended texts
+
+    * Kendall Atkinson and Weimin Han (2009). *Theoretical Numerical Analysis* (3rd ed)
+
+    * Ward Cheney (2001).  *Analysis for Applied Mathematics* 
+
+    * Nancy Stokey and Robert Lucas Jr. (1989) *Recursive Methods in Economic Dynamics*
+
+    * John Stachurski (2009).  *Economic Dynamics: Theory and Computation* 
 
 
 ## Syllabus 
@@ -57,7 +72,7 @@ Table of Contents:
 
 * Open Source 
 
-    * Examples of how contributions improve on standard library
+    * Examples of how contributions improve on the standard library
 
         * http://docs.python-requests.org/en/latest/
         * https://python-programming.courses/general/better-date-and-time-handling-with-arrow/
@@ -68,10 +83,10 @@ Table of Contents:
         * http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
         * http://blog.f1000research.com/2014/11/11/what-is-open-science/
 
-    * How can open source produce **better** software than firms?
+    * How can open source produce **better** software than firms acting alone?
         * https://github.com/
         * https://www.moore.org/newsroom/press-releases/2015/07/07/$6m-for-uc-berkeley-and-cal-poly-to-expand-and-enhance-open-source-software-for-scientific-computing-and-data-science
-
+        * https://www.continuum.io/
 
 
 #### Coding 101
@@ -98,11 +113,9 @@ Table of Contents:
     * http://software-carpentry.org/
 
 * Speed and Efficiency
-
-    Hardware
-    Vectorized code
-    Interpreted / JIT compiled / AOT compiled
-    Comparison of loops and limits of vectorization: http://koaning.io/posts/julia_for_loops.html
+    * Hardware
+    * Interpreted / JIT compiled / AOT compiled
+    * Vectorized code
 
 * C and Fortran
     * GSL
