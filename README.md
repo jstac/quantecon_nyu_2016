@@ -1,5 +1,5 @@
 
-# quantecon_nyu_2016
+# QUANTECON_NYU_2016
 
 This is the home page of the course on computational economics I'll be taking
 at NYU in the spring semester of 2016.  
@@ -7,7 +7,8 @@ at NYU in the spring semester of 2016.
 Table of Contents:
 
 * [Syllabus](#syllabus)
-* [Resources](#resources)
+* [Assessment](#assessment)
+* [Additional Resources](#resources)
 
 Semi-Random quote
 
@@ -19,132 +20,69 @@ Semi-Random quote
 >   -- Yaron  Minsky, Jane Street
 
 
+
 ## Syllabus 
 
 
-
-### Part I: Programming Concepts and Techniques
+### Part I: Programming 
 
 
 #### Introduction
 
-What makes a good scientific programming environment?  
+* Scientific programming environments --- what do we want?
 
-* speed
-* productivity
-* large network / ecosystem / many libraries
-* scalability
-* fun
-* readability 
+* Why Python?  And what is it anyway?
 
+    * Background
+        * http://www.galvanize.com/blog/2015/10/01/bill-and-melinda-gates-foundation-saves-lives-with-python/
 
+    * Automation
+        * https://github.com/jstac/backup_scripts
 
-#### What's Python?  What's Julia
+    * Philosophy
+        * import this, import antigravity
+        * http://legacy.python.org/dev/peps/pep-0020/
+        * https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
 
+* What's Julia?
 
-zen of Python
-    * and follow ups: https://www.reddit.com/r/Python/comments/3s4j6n/zen_of_python_verse_2/
-        - Number of bugs is linear with number of code lines (a plus of using Python)
+* Open source -- the good, the bad and the ugly
 
-    * import this, import antigravity
-
-http://www.galvanize.com/blog/2015/10/01/bill-and-melinda-gates-foundation-saves-lives-with-python/
-
-https://blog.hartleybrody.com/python-style-guide/
-
-Benefits of open source
     * Examples of how contributions improve on standard library
+
         * http://docs.python-requests.org/en/latest/
         * https://python-programming.courses/general/better-date-and-time-handling-with-arrow/
-    - open science
+
+    * Open science
+
         * http://devblogs.nvidia.com/parallelforall/open-reproducible-computational-chemistry-python-cuda/
         * http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
         * http://blog.f1000research.com/2014/11/11/what-is-open-science/
 
 
 
-Programming Concepts
-=============================
-
-
-Why OOP?  It's like structs -- clearly useful -- with lazy evaluation
-
-The beauty of introspection / IPython / --- use MarkovChain instance mc.[tab] as an example
-
-Test driven development: http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137
-
-
-
-Programming Practice
-=============================
+#### Coding 101
 
 * UNIX and the UNIX shell
-    http://swcarpentry.github.io/shell-novice/
+    * http://swcarpentry.github.io/shell-novice/
+    * http://swcarpentry.github.io/make-novice/
 
-* Automation and scripting
-    https://github.com/jstac/backup_scripts
-    http://swcarpentry.github.io/make-novice/
+* Editing = Vim
+    * https://danielmiessler.com/study/vim/
+    * https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+    * http://vim-adventures.com/
+    * http://www.openvim.com/
 
-* Editing and Vim
-    https://danielmiessler.com/study/vim/
-    https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
-    http://vim-adventures.com/
-    http://www.openvim.com/
-
-* tmux
-    http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/
+* Tmux
+    * http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/
 
 * Version control
-    https://github.com/swcarpentry/git-novice
-    http://gitimmersion.com/
-    http://luisbg.blogalia.com//historias/76017 --- Git cheatsheet
-
-* Debugging 
-
-* Profiling
+    * https://github.com/swcarpentry/git-novice
+    * http://gitimmersion.com/
+    * http://luisbg.blogalia.com//historias/76017 --- Git cheatsheet
 
 * General software engineering skills
     * http://software-carpentry.org/
-
-
-
-Python Core Language
-===========================
- 
-https://google.github.io/styleguide/pyguide.html
-
-    - note how the discourage global vars
-
-* https://leanpub.com/intermediatepython/read
-
-* http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb
-
-* http://book.pythontips.com/en/latest/
-
-* List of Python tutorials:
-    http://noeticforce.com/best-free-tutorials-to-learn-python-pdfs-ebooks-online-interactive
-
-* Decorators
-    blog.apcelent.com/python-decorator-tutorial-with-example.html
-    
-
-
-
-Scientific Programming
-============================
-
-Julia vs Python and Python optimization resources 
-    * https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en
-
-Matlab vs NumPy
-    http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
-    http://scottsievert.github.io/blog/2015/09/01/matlab-to-python/
-
-
-* Resources
-    http://bender.astro.sunysb.edu/classes/python-science/
-    http://computationalmodelling.bitbucket.org/tools/
-
 
 * Speed and Efficiency
 
@@ -153,32 +91,50 @@ Matlab vs NumPy
     Interpreted / JIT compiled / AOT compiled
     Comparison of loops and limits of vectorization: http://koaning.io/posts/julia_for_loops.html
 
-* Use Matsuyama synchronization basins of attraction instead of Julia sets to illustrate
+* C and Fortran
+    * GSL
+    * http://computationalmodelling.bitbucket.org/tools/FORTRAN.html
+
+* Test driven development: 
+    * http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137
 
 
 
-Programming in C
-==================
+#### Core Python
 
-* GSL
+* Basic syntax
 
-* Suggested exercise: use simulation to confirm that OLS slope coeff in linear
-  AR1 regression is biased downwards.
+* The REPLs: 
+    * Python and IPython shells
+    * The beauty of introspection on the fly
 
+* Why OOP?  It's like structs with lazy evaluation
 
-Programming Topics and Libraries
-====================================
+* Python style
+    * https://blog.hartleybrody.com/python-style-guide/
+    * https://google.github.io/styleguide/pyguide.html
+    * https://www.python.org/dev/peps/pep-0008/
 
-
-Python
--------
-
-
-* Core language
+* Other general Python resources
+ 
     * https://gist.github.com/sloria/7001839
+    * https://leanpub.com/intermediatepython/read
+    * http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb
+    * http://book.pythontips.com/en/latest/
+    * http://noeticforce.com/best-free-tutorials-to-learn-python-pdfs-ebooks-online-interactive
+    * blog.apcelent.com/python-decorator-tutorial-with-example.html
 
-* General scientific Python
+* Debugging 
+
+
+#### Scientific Python I: Core Libraries
+
+* General Resources
     * https://github.com/jrjohansson/scientific-python-lectures
+    * http://bender.astro.sunysb.edu/classes/python-science/
+    * http://computationalmodelling.bitbucket.org/tools/
+
+* NumPy and SciPy  
 
 * Jupyter and IPython 
     * http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb
@@ -188,7 +144,6 @@ Python
     *  http://mybinder.org/
     * my live notebooks for emet book
     * https://github.com/jupyter/jupyterhub
-    * https://github.com/jupyter/nbgrader
     * http://nbviewer.ipython.org/
     * https://github.com/bloomberg/bqplot
     * https://github.com/lambdalisue/jupyter-vim-binding
@@ -197,39 +152,41 @@ Python
     * https://plot.ly/ipython-notebooks/ipython-notebook-tutorial/
     * https://github.com/nicolaskruchten/pyconca/blob/master/jupyter_magic.ipynb
 
-* sympy
+
+#### Scientific Python II: The Ecosystem
+
+* Sympy
     * http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/SymPy.ipynb
 
-* webscraping: http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
+* Webscraping 
+    * http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
 
-* pandas -- matt?
+* Pandas 
     * http://geoffboeing.com/2015/11/landscape-us-rents/
 
-* Matplotlib, plotly, Bokeh
+* Visualization
+    * Matplotlib, plotly, Bokeh
     * http://nbviewer.ipython.org/github/clbarnes/plotstyles/blob/master/plotstyles.ipynb
 
-* Bayesian stats
+* Statistics and machine learning
   * https://www.youtube.com/watch?v=5W715nfJNJw
-  * PyMC
+  * PyMC, Statsmodels
+  * http://scikit-learn.org/stable/related_projects.html
+  * https://www.youtube.com/watch?v=L7R4HUQ-eQ0&feature=youtu.be
+  * Seaborn
 
-* parallel processing in Python 
+* Parallel processing 
     http://ufora.github.io/ufora/
-
-* NumPy and SciPy  -- me?
-
-* scikit learn
-    * http://scikit-learn.org/stable/related_projects.html
-    * https://www.youtube.com/watch?v=L7R4HUQ-eQ0&feature=youtu.be
-
-* Statsmodels, Patsy
 
 * Blaze? 
 
-* Cython, nuitka and other AOT compilers
+* AOT compilers
+    * Cython
+    * Nuitka
 
 * Numba and other JIT compilers 
     * http://blog.pyston.org/2015/11/03/102/
-    http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
+    * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
 
 * Wrappers
     * https://github.com/wjakob/pybind11
@@ -237,38 +194,37 @@ Python
 
 * NetworkX
 
-* Seaborn
-
-* Markov chains and MDPs -- me
 
 
+#### Julia
 
+* Intro
+    * http://julialang.org/blog/2012/02/why-we-created-julia/
+    * http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html
 
-Julia
-===========
+* General
+    * http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
+    * http://www.slideshare.net/acidflask/an-introduction-to-julia
+    * http://computationalmodelling.bitbucket.org/tools/Julia.html
 
-
-http://www.slideshare.net/acidflask/an-introduction-to-julia
-http://computationalmodelling.bitbucket.org/tools/Julia.html
-
-* Distributions.jl -- I'll do it?
-* Gadfly
-
-C and Fortran
-================
-
-http://computationalmodelling.bitbucket.org/tools/FORTRAN.html
+* Libraries
+    * Distributions.jl 
+    * Gadfly
 
 
 
 
 
+### Part II: Comp Econ Foundations
 
-Applications / Replications / Technical Topics
-================================================
 
-Foundations
-------------------------------
+
+
+
+### Part III: Applications
+
+
+#### Functional Analysis
 
 * Metric / Banach / Hilbert space
     - L2
@@ -278,12 +234,15 @@ Foundations
 * Neumann series lemma
 
 
-Markov Dynamics
------------------
+#### Markov Dynamics I: Finite State
 
 * Finite MCs and Daisuke's code
     - The Dobrushin coefficient
     - A simple coupling argument
+
+
+#### Markov Dynamics II: General State
+
 * General state spaces
     - Feller chains, Boundedness in prob
     - Monotone methods
@@ -294,8 +253,7 @@ Markov Dynamics
     - examples in poverty traps survey??
 
 
-Dynamic Programming
---------------------
+#### Dynamic Programming
 
 * Fundamental theory
     - The principle of optimality
@@ -308,51 +266,42 @@ Dynamic Programming
 * Applications (see TE paper, monotone LLN)
 
 
-Unbounded DP
--------------
+#### DP II: Extensions
 
 * Weighted sup norm approach
 
+* The Coleman operator
+    * Benhabib wealth dist heavy tails
 
-The Coleman operator
----------------------
-
-* Benhabib wealth dist heavy tails
-
-
-Recursive and Risk Sensitive Preferences
----------------------------------------
-
-* Stochastic Optimal Growth Model with Risk Sensitive Preferences N Bäuerle, A Jaśkiewicz - arXiv preprint arXiv:1509.05638, 2015
-
-* recursive preferences
+* Recursive and risk sensitive preferences
+    * Stochastic Optimal Growth Model with Risk Sensitive Preferences N Bäuerle, A Jaśkiewicz - arXiv preprint arXiv:1509.05638, 2015
 
 
-Asset Pricing
---------------
+#### Solving Forward Looking Models
 
-* Lucas method first
 * L2 methods
 
+* Asset Pricing
 
-Optimal Stopping
--------------------
+
+#### Optimal Stopping
 
 * Reservation rule operator
-    - Theory 
-    - Applications
+    *  Theory 
+    *  Applications
 
 
-Coase
------
+#### Coase's Theory of the Firm
 
-* Theory of the firm
+* Theory 
+* Implementation
+
+#### APS 
+
+* Maybe
 
 
-APS 
-----
 
-* A possibility
 
 
 
@@ -398,14 +347,17 @@ Good projects demonstrate proficiency with
 
 
 
-## Resources
+
+## Additional Resources
+
+Matlab vs NumPy
+    http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
+    http://scottsievert.github.io/blog/2015/09/01/matlab-to-python/
 
 
 Must watch vids:
 https://github.com/s16h/py-must-watch
 
-Julia
-http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
 
 Discussion of Python
 http://bruceeckel.github.io/2015/08/29/what-i-do/
@@ -415,4 +367,8 @@ http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregatio
 
 Discussion of speed:
 https://www.reddit.com/r/Python/comments/3m3ll9/where_python_is_used_in_industry_other_than_webdev/
+
+
+Julia vs Python and Python optimization resources 
+    * https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en
 
