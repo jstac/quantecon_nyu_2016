@@ -43,15 +43,17 @@ Table of Contents:
 #### Introduction
 
 * Scientific programming environments --- what do we want?
+    * Speed?
+    * Productivity?
+    * [Fun?](https://xkcd.com/353/)
 * Why [Python](https://www.python.org/)?  And what is it anyway?
     * Background
         * http://quant-econ.net/py/about_py.html
         * http://www.galvanize.com/blog/2015/10/01/bill-and-melinda-gates-foundation-saves-lives-with-python/
     * Philosophy
         * http://legacy.python.org/dev/peps/pep-0020/
-        * [import antigravity](http://python-history.blogspot.com/2010/06/import-antigravity.html)
         * https://gist.github.com/sloria/7001839
-    * The second best language for everything
+    * The [second best language for everything](http://blog.mikiobraun.de/2013/11/how-python-became-the-language-of-choice-for-data-science.html)
         * https://github.com/jstac/backup_scripts
 * What's Julia?
     * http://julialang.org/blog/2012/02/why-we-created-julia/
