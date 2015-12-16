@@ -5,6 +5,8 @@
 
 This is the home page of a PhD level course on computational economics to be held at [NYU](http://econ.as.nyu.edu/page/home) in the spring semester of 2016.  
 
+(Note: This document is preliminary and still under development)
+
 Semi-Random quote
 
 >   All this technology  carries risk. There is no faster way for a trading
