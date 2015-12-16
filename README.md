@@ -151,32 +151,34 @@ Table of Contents:
 
 #### Scientific Python II: The Ecosystem
 
-* Pandas 
+* [Pandas](http://pandas.pydata.org/)
     * http://geoffboeing.com/2015/11/landscape-us-rents/
-* Numba and other JIT compilers 
+* [Numba](http://numba.pydata.org/) and other JIT compilers 
     * http://blog.pyston.org/2015/11/03/102/
     * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
 * AOT compilers
-    * Cython
+    * [Cython](http://cython.org/)
     * Others (Nuitka?)
 * Visualization
-    * Plotly, Bokeh
+    * [Plotly](https://plot.ly/), Bokeh
 * Statistics and machine learning
   * https://www.youtube.com/watch?v=5W715nfJNJw
-  * PyMC, Statsmodels
+  * PyMC, [Statsmodels](http://statsmodels.sourceforge.net/)
   * http://scikit-learn.org/stable/related_projects.html
   * https://www.youtube.com/watch?v=L7R4HUQ-eQ0&feature=youtu.be
-  * Seaborn
+  * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/)
 * Parallel processing 
-    http://ufora.github.io/ufora/
-* Blaze? 
+    * http://www.davekuhlman.org/python_multiprocessing_01.html
+    * http://ufora.github.io/ufora/
+* Blaze 
 * Wrappers
     * https://github.com/wjakob/pybind11
     * f2py and related solutions (https://www.euroscipy.org/2015/schedule/presentation/58/)
-* NetworkX
-* Sympy
+* [NetworkX](https://networkx.github.io/)
+* [Sympy](http://www.sympy.org/en/index.html)
     * http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/SymPy.ipynb
 * Webscraping 
+    * http://shop.oreilly.com/product/0636920034391.do
     * http://robertwdempsey.com/simple-python-web-scraper-get-pricing-data/
 
 
@@ -202,12 +204,14 @@ Table of Contents:
 
 #### Functional Analysis
 
+* A dash of measure and integration
 * Metric / Banach / Hilbert space
-    - Space of bounded functions (cbS is a closed subset)
-    - The Lp spaces
+    * Space of bounded functions (cbS is a closed subset)
+    * The Lp spaces
 * Banach contraction mapping theorem
 * Orthogonal projections
 * Neumann series lemma
+
 
 
 #### Markov Dynamics I: Finite State
