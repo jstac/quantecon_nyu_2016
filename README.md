@@ -46,7 +46,7 @@ I assume that you have
 
 * At least a bit of programming experience
     * E.g., some experience writing Matlab code or similar
-* Econ PhD level maths, including some familiarity with
+* Econ PhD level quantitative skills, including some familiarity with
     * Linear algebra
     * Basic analysis (sequences, limits, continuity, etc.)
     * Dynamics (diff equations, finite Markov chains, AR(1) processes, etc.)
@@ -60,6 +60,7 @@ If you would like to prepare for the course before hand please consider
   [profit](http://www.eweek.com/it-management/demand-for-linux-skills-growing-faster-than-talent-pool-report.html)) 
 * Do some exercises in real analysis if you are rusty
     * [These notes](http://math.louisville.edu/~lee/ira/IntroRealAnal.pdf) look like about the right level
+* Read the first 3 chapters of [RMT](https://mitpress.mit.edu/books/recursive-macroeconomic-theory-1) if you don't know any Markov chain theory or dynamic programming
 
 ## Syllabus 
 
