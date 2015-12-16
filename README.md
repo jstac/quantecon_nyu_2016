@@ -203,6 +203,14 @@ Table of Contents:
 ### Part II: Comp Econ Foundations
 
 
+#### Markov Dynamics I: Finite State
+
+* Asymptotics
+* The Dobrushin coefficient
+* A simple coupling argument
+* Code from QuantEcon
+* Applications
+
 
 #### Functional Analysis
 
@@ -211,32 +219,30 @@ Table of Contents:
     * Space of bounded functions (cbS is a closed subset)
     * The Lp spaces
 * Banach contraction mapping theorem
+    * Blackwell's sufficient condition
 * Orthogonal projections
 * Neumann series lemma
-
-
-
-#### Markov Dynamics I: Finite State
-
-* Finite MCs 
-    * Asymptotics
-    * The Dobrushin coefficient
-    * A simple coupling argument
-    * Code from QuantEcon
+* Applications
+    * The Lucas 78 asset pricing paper
 
 
 #### Markov Dynamics II: General State
 
 * General state spaces
-    - Feller chains, Boundedness in prob
-    - Monotone methods
+    * Feller chains, Boundedness in prob
+    * Monotone methods
 * LLN and CLT
-* Applications like ARCH, poverty traps, STAR, MCMC
 * Look ahead method
-    - examples in lae_extension?
-    - examples in poverty traps survey?
+    * examples in lae_extension?
+    * examples in poverty traps survey?
+* Applications 
+    * ARCH, AZ, STAR, MCMC, etc.
 
 
+#### Solving Forward Looking Models
+
+* L2 methods
+* Asset Pricing
 
 
 #### Dynamic Programming
@@ -251,7 +257,6 @@ Table of Contents:
 * Weighted sup norm approach
 
 
-
 ### Part III: Applications
 
 
@@ -263,14 +268,6 @@ Table of Contents:
 * Recursive and risk sensitive preferences
     * [Stochastic Optimal Growth Model with Risk Sensitive Preferences](http://arxiv.org/abs/1509.05638)
 * Other (see TE paper, monotone LLN)
-
-
-
-#### Solving Forward Looking Models
-
-* L2 methods
-
-* Asset Pricing
 
 
 #### Optimal Stopping
