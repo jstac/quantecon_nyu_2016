@@ -49,11 +49,11 @@ I assume that you have
 * Econ PhD level maths, including some familiarity with
     * Linear algebra
     * Basic analysis (sequences, limits, continuity, etc.)
-    * Some dynamics (finite Markov chains, AR(1) processes, etc.)
+    * Dynamics (diff equations, finite Markov chains, AR(1) processes, etc.)
 
-If you would like to prepare for the course consider 
+If you would like to prepare for the course before hand please consider 
 
-* Installing [Linux](http://www.ubuntu.com/desktop) on a [VM](https://www.virtualbox.org/wiki/Linux_Downloads) or a partition
+* Installing [Linux](http://www.ubuntu.com/desktop) on a [VM](https://www.virtualbox.org/wiki/Linux_Downloads) or in a bootable partition on your laptop 
     * Backup your data first!
     * Help available in the first class
 * Build up your [Linux skills](http://manuals.bioinformatics.ucr.edu/home/linux-basics) (and
