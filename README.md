@@ -21,6 +21,7 @@ Semi-Random quote
 Table of Contents:
 
 * [References](#references)
+* [Prerequisites](#prerequisites)
 * [Syllabus](#syllabus)
     * [Part I: Programming](#part-i-programming)
     * [Part II: Comp Econ Foundations](#part-ii-comp-econ-foundations)
@@ -39,8 +40,31 @@ Table of Contents:
     * John Stachurski (2009).  *Economic Dynamics: Theory and Computation* 
 
 
+## Prerequisites
+
+I assume that you have
+
+* At least a bit of programming experience
+    * E.g., some experience writing Matlab code or similar
+* Econ PhD level maths, including some familiarity with
+    * Linear algebra
+    * Basic analysis (sequences, limits, continuity, etc.)
+    * Some dynamics (finite Markov chains, AR(1) processes, etc.)
+
+If you would like to prepare for the course consider 
+
+* Installing [Linux](http://www.ubuntu.com/desktop) on a [VM](https://www.virtualbox.org/wiki/Linux_Downloads) or a partition
+    * Backup your data first!
+    * Help available in the first class
+* Build up your [Linux skills](http://manuals.bioinformatics.ucr.edu/home/linux-basics) (and
+  [profit](http://www.eweek.com/it-management/demand-for-linux-skills-growing-faster-than-talent-pool-report.html)) 
+* Do some exercises in real analysis if you are rusty
+    * [These notes](http://math.louisville.edu/~lee/ira/IntroRealAnal.pdf) look like about the right level
+
 ## Syllabus 
 
+Below is a sketch of the syllabus for the course.  The details are still
+subject to some change.
 
 ### Part I: Programming 
 
