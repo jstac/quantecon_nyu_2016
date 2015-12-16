@@ -1,9 +1,9 @@
 
-# QUANTECON_NYU_2016
+# Topics in Computational Economics
 
 [John Stachurski](http://johnstachurski.net/)
 
-This is the home page of a PhD level course on computational economics to be held at [NYU](http://econ.as.nyu.edu/page/home) in the spring semester of 2016.  
+This is the home page of ECON-GA 3002, a PhD level course on computational economics to be held at [NYU](http://econ.as.nyu.edu/page/home) in the spring semester of 2016.  
 
 (Note: This document is preliminary and still under development)
 
@@ -105,7 +105,6 @@ subject to some change.
 
 * UNIX and the UNIX shell
     * http://swcarpentry.github.io/shell-novice/
-    * http://swcarpentry.github.io/make-novice/
 * Editing = Vim
     * https://danielmiessler.com/study/vim/
     * https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
