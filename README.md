@@ -354,6 +354,9 @@ Good projects demonstrate proficiency with
     *  http://mybinder.org/
     * https://github.com/jupyter/jupyterhub
 
+* Machine learning and prediction
+    * www.galvanize.com/blog/how-random-forest-modeling-solves-seattles-bikesharing-problem/
+
 * Language comparisons
     * http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
     * http://scottsievert.github.io/blog/2015/09/01/matlab-to-python/
