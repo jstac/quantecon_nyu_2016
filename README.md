@@ -194,6 +194,7 @@ subject to some change.
   * https://www.youtube.com/watch?v=L7R4HUQ-eQ0&feature=youtu.be
   * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/)
 * Parallel processing 
+    * http://www.admin-magazine.com/HPC/Articles/Parallel-Python-with-Joblib
     * http://www.davekuhlman.org/python_multiprocessing_01.html
     * http://ufora.github.io/ufora/
 * Blaze 
