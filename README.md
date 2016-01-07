@@ -350,13 +350,12 @@ Good projects demonstrate proficiency with
     * https://github.com/bloomberg/bqplot
     * https://cloud.google.com/datalab/
     * http://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
-    * https://github.com/lambdalisue/jupyter-vim-binding
-    *  https://github.com/jupyter/jupyterhub
-    *  http://mybinder.org/
     * https://github.com/jupyter/jupyterhub
+    * http://mybinder.org/
 
-* Machine learning and prediction
+* Data, machine learning and prediction
     * www.galvanize.com/blog/how-random-forest-modeling-solves-seattles-bikesharing-problem/
+    * https://anaconda.org/ikkebr/brazilian-federal-payroll/notebook
 
 * Language comparisons
     * http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html
