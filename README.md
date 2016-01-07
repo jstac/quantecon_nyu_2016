@@ -373,5 +373,8 @@ Good projects demonstrate proficiency with
 Vectorization:
     * http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/
 
+Good reads
+    * http://undsci.berkeley.edu/article/cold_fusion_01
+    * https://msdn.microsoft.com/en-us/library/dn568100.aspx
 
 
