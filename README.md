@@ -20,6 +20,7 @@ Semi-Random quote
 
 Table of Contents:
 
+* [News](#news)
 * [References](#references)
 * [Prerequisites](#prerequisites)
 * [Syllabus](#syllabus)
@@ -29,6 +30,10 @@ Table of Contents:
 * [Assessment](#assessment)
 * [Additional Resources](#additional-resources)
 
+## News
+
+Note that the class time has been shifted to Friday 9am--11am, in room 624 of
+the Econ department (19 W. 4th).
 
 ## References
 
@@ -134,8 +139,9 @@ subject to some change.
 
 #### Core Python
 
-* The REPLs: 
-    * Python and IPython shells
+* [Getting started](http://quant-econ.net/py/getting_started.html)
+    * The REPLs: Python and IPython shells
+    * Jupyter
     * The beauty of introspection on the fly
 * Basic syntax
     * http://quant-econ.net/py/python_by_example.html
