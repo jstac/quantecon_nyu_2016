@@ -93,8 +93,9 @@ subject to some change.
         * http://docs.python-requests.org/en/latest/
         * https://python-programming.courses/general/better-date-and-time-handling-with-arrow/
     * Open science
+        * http://www.openscience.org/blog/?p=269
+        * https://opensource.com/resources/open-science
         * http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
-        * http://blog.f1000research.com/2014/11/11/what-is-open-science/
         * http://devblogs.nvidia.com/parallelforall/open-reproducible-computational-chemistry-python-cuda/
     * How can open source produce **better** software than firms acting alone?
         * https://github.com/
