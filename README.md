@@ -35,7 +35,7 @@ Table of Contents:
 Note that the class time has been shifted to Friday 9am--11am, in room 624 of
 the Econ department (19 W. 4th).
 
-Please **bring you laptop to the first and all subsequent classes**
+If possible, please **bring your laptop to the first and all subsequent classes**
 
 
 ## References
