@@ -192,6 +192,7 @@ subject to some change.
 * [Numba](http://numba.pydata.org/) and other JIT compilers 
     * http://blog.pyston.org/2015/11/03/102/
     * http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb
+    * https://www.ibm.com/developerworks/community/blogs/jfp/entry/A_Comparison_Of_C_Julia_Python_Numba_Cython_Scipy_and_BLAS_on_LU_Factorization?lang=en
 * AOT compilers
     * [Cython](http://cython.org/)
     * Others (Nuitka?)
