@@ -32,10 +32,15 @@ Table of Contents:
 
 ## News
 
-Note that the class time has been shifted to Friday 9am--11am, in room 624 of
-the Econ department (19 W. 4th).
+#### New Location!
 
-If possible, please **bring your laptop to the first and all subsequent classes**
+Please note that the lecture room has changed to **room 5-75 in the Stern Building**.
+
+The time is unchanged: Friday 9am--11am
+
+Please be sure to bring your laptop 
+
+
 
 
 ## References
