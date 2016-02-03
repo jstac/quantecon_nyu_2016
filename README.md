@@ -323,25 +323,11 @@ subject to some change.
 * Theory 
 * Implementation
 
-#### APS 
-
-* Maybe
-
 
 
 ## Assessment
 
-The full details are yet to be filled in but the marks will be spread across
-
-* A class project, options for which include
-    * Replicate some published research in Python or Julia
-    * Investigate a topic of your own interest
-* Presentations
-    1. A library or programming topic 
-    2. Your class project, towards the end of the course
-* Homework assignments
-* Participation 
-    * Attending presentations of your classmates
+See lecture 1 slides.
 
 
 ##### Notes
