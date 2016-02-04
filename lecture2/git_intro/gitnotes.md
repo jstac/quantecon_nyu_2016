@@ -18,6 +18,40 @@ Git is a _distributed_ version control system. _Distributed version control_ mea
 
 ## Using `git`
 
+Many people associate `git` with the cloud based repository service Github, but `git` can be run independently either just on your own computer or on a self-hosted server. In this short tutorial, we are going to create a `git` repository hosted on our computer. We will then talk about some of the day to day commads that will be used in `git`.
+
+WARNING: Until you know what you're doing and exactly how they work, NEVER use the `-f` or `--force` flags no matter what the internet tells you.
+
+### Configuration
+
+Here we configure the default editor, colors, name, email etc...
+
+### Creating a folder
+
+We will create a folder called `<FirstNameLastNameHomework>` using `mkdir <FirstNameLastNameHomework>`
+
+### Initializing a `git` repository
+
+Now enter that directory using `cd <FirstNameLastNameHomework>`. To initialize this directory as a `git` repository (which in the background will create a series of directories and files) we will use the command `git init`.
+
+We can see the things that were created by typing `ls .git`, but don't worry too much about what is being kept inside yet.
+
+### Four Stages of Files
+
+Cover untracked, unstaged, staged, committed. Talk about `git diff`, `git add`, `git commit`. Talk about how `git status` allows you to see the differences
+
+### Commit History
+
+Talk about `git log` and maybe `git reset`
+
+### Branching
+
+Talk about `git branch` and `git checkout`
+
+### Ignore Files
+
+Talk about `git ignore`
+
 ## Resources and References
 
 Below is a sequence of references to things that I have found useful. I suggest reading a few of them and at least skimming the majority of them. In particular, the software carpentry lectures on git are very useful for learning the basics -- The Pro Git book is the biblical reference for git and can likely answer any question you will have for at least a few years to come. I have organized both sections by how relevant/convincing I found the documents.
