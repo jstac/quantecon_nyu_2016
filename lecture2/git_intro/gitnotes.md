@@ -1,6 +1,8 @@
 # Version Control with Git
 
-![Comic](images/phd101212s.gif)
+<div style="max-width: 600px; margin:0 auto;">
+  <img src="images/phd101212s.gif" style="max-width:100%;"/>
+</div>
 
 I suspect that the most of us have participated in some sort of "home-rolled" version of version control. For example, below are three forms of "collaboration" that we might have engaged in
 
@@ -54,7 +56,9 @@ Files in a git repository can be in four different stages: untracked, unstaged, 
 
 The picture below illustrates this "life cycle"
 
-![Git lifecycle](images/gitlifecycle.png)
+<div style="max-width: 600px; margin:0 auto;">
+<img src="images/gitlifecycle.png" style="max-width:100%;"/>
+</div>
 
 Let's illustrate this through an example and to expose ourselves to the commands that will be helpful: `git add`, `git commit`, `git diff`, and `git status`.
 

@@ -1,18 +1,76 @@
+<h1 id="version-control-with-git">Version Control with Git</h1>
+<div style="max-width: 600px; margin:0 auto;">
+<p><img src="images/phd101212s.gif" style="max-width:100%;"/></p>
+</div>
+<p>I suspect that the most of us have participated in some sort of &quot;home-rolled&quot; version of version control. For example, below are three forms of &quot;collaboration&quot; that we might have engaged in</p>
+<ul>
+<li>Tediously &quot;careful&quot; approach: This is when a person (or people) maintain a type of version control by placing the date edited at the end of the file name and then maintaining a full folder of these types of files.</li>
+<li>Stake your claim approach: This appraoch takes the form of calling &quot;dibs&quot; on the use of a specific file for the time being by shouting across the office or sending emails to your collaborators and informing others that the file is &quot;currently under your control&quot; and that others should stay away!</li>
+<li>Where's that email approach: Perhaps worst of all is the approach in which collaborators each maintain their own file and email it back and forth with changes as they make them.</li>
+</ul>
+<p>All of these are dangerous workflows and will result in mistakes and unwanted material showing up in your files (or wanted material being erased). Luckily for us, a variety of version control products have evolved in order to help us eliminate the need for these types of behaviors. Dropbox, Google Drives, SVN, Mercurial, and git are all examples of version control systems.</p>
+<p>Version control allows us to keep track of what changes have been made over time. Careful maintenance of code and data is vital to reproducibility which &quot;is the hallmark of good science.&quot; While Dropbox and Google Drives may be useful for sharing certain types of files (I am not an advocate of their complete abandonment), they are not suitable for the fine tuned version control that we need to maintain good science (or software).</p>
 <h2 id="what-is-git">What is <code>git</code>?</h2>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Table</th>
-<th align="left">test</th>
-<th align="left">1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">hi</td>
-<td align="left">this</td>
-<td align="left">works</td>
-</tr>
-</tbody>
-</table>
-<p><a href="http://www.google.com">google</a></p>
+<p>Git is a <em>distributed</em> version control system. <em>Distributed version control</em> means that the entire history of every file is kept on your computer. It was originally written by Linus Torvalds (creator of Linux) to help maintain the Linux project (Fun Fact: Git was originally written because Torvalds found all other alternatives of version control to be too slow to manage a project as large as Linux, so he decided to write his own version which he began on 3 April 2005 and started being used on 7 April 2005. Read more about the <a href="https://en.wikipedia.org/wiki/Git_(software)">history</a>).</p>
+<h2 id="using-git">Using <code>git</code></h2>
+<p>Many people associate <code>git</code> with the cloud based repository service Github, but <code>git</code> can be run independently either just on your own computer or on a self-hosted server. In this short tutorial, we are going to create a <code>git</code> repository hosted on our computer. We will then talk about some of the day to day commads that will be used in <code>git</code>.</p>
+<p>WARNING: Until you know what you're doing and exactly how they work, NEVER use the <code>-f</code> or <code>--force</code> flags no matter what the internet tells you.</p>
+<p>We are now going to walk through some of the basic settings you should set and an example of some commands.</p>
+<h3 id="configuration">Configuration</h3>
+<p>Here we deal with configuration details such as our default editor, user name, email, colors, etc...</p>
+<ul>
+<li>Set name: <code>git config --global user.name FirstName LastName</code></li>
+<li>Set email: <code>git config --global user.email email@email.com</code></li>
+<li>Sets git colors: <code>git config --global color.ui &quot;auto&quot;</code></li>
+<li>Sets editor to vim: <code>git config --global core.editor &quot;vim&quot;</code></li>
+</ul>
+<h3 id="creating-a-folder">Creating a folder</h3>
+<p>We will create a folder called <code>&lt;MyFirstGitRepo&gt;</code> using <code>mkdir &lt;MyFirstGitRepo&gt;</code></p>
+<h3 id="initializing-a-git-repository">Initializing a <code>git</code> repository</h3>
+<p>Now enter that directory using <code>cd &lt;MyFirstGitRepo&gt;</code>. To initialize this directory as a <code>git</code> repository (which in the background will create a series of directories and files) we will use the command <code>git init</code>.</p>
+<p>We can see the things that were created by typing <code>ls .git</code>, but don't worry too much about what is being kept inside yet.</p>
+<h3 id="four-stages-of-files">Four Stages of Files</h3>
+<p>Files in a git repository can be in four different stages: untracked, unstaged, staged, and committed.</p>
+<ul>
+<li>Untracked: This is a new file that your repository hasn't seen before.</li>
+<li>Unstaged: A file that has previously been tracked and saved, but has changed since its last version.</li>
+<li>Staged: A file that has been changed and is prepared to be committed. Nothing is set in stone yet though and new changes can be made.</li>
+<li>Committed: When a file is committed it becomes a piece of the history of the repository. This moment of time in the file will be able to be referenced or referred to in the future.</li>
+</ul>
+<p>The picture below illustrates this &quot;life cycle&quot;</p>
+<div style="max-width: 600px; margin:0 auto;">
+<p><img src="images/gitlifecycle.png" style="max-width:100%;"/></p>
+</div>
+<p>Let's illustrate this through an example and to expose ourselves to the commands that will be helpful: <code>git add</code>, <code>git commit</code>, <code>git diff</code>, and <code>git status</code>.</p>
+<p>First let's check what is new in our repository. Type <code>git status</code>. What does it say? It should say that there is nothing to commit because we haven't done anything yet.</p>
+<p>Now let's create a file called <code>README.md</code>. Open this file and type your name in it (could also use the command <code>echo &quot;FirstName LastName&quot; &gt;&gt; README.md</code>). If you type <code>git status</code> now, what do you see? It should list <code>README.md</code> as an untracked file.</p>
+<p>We can move this file from untracked to staged by using <code>git add README.md</code>. Type this command and then once again type <code>git status</code>. Our <code>README.md</code> file now shows up in green as a change to be committed. This means it is staged.</p>
+<p>We can take our &quot;snapshot&quot; of the file by using the command <code>git commit -m &quot;Type a meaningful msg here&quot;</code>. Commit the file and then once again type <code>git status</code>. What do you see now? The repository should be clean again.</p>
+<p>Add something new to the <code>README.md</code> file. Once again, we can check the status of our git repository by typing <code>git status</code>. It will tell us that <code>README.md</code> is unstaged because we have made changes to it.</p>
+<p>Imagine we wanted to double check the things that we changed. We could type <code>git diff README.md</code> which will show us the changes that have been made to that file since its previous commit.</p>
+<p>These commands will be the core of your <code>git</code> workflow so I suggest familiarizing yourself with what they do.</p>
+<h3 id="commit-history">Commit History</h3>
+<p>Remember how we can leave ourselves commit messages. It is useful to leave meaningful commit messages because they are left as a guide for yourself. We can see our history of commits by typing <code>git log</code>. We can do this in several formats: Try <code>git log --pretty=oneline</code>, <code>git log --stat</code>, <code>git log --since=2.weeks</code>, etc... See the Git Pro book for more options.</p>
+<p>If we want to return to a previous commit in our history we can use the information from <code>git log</code> to get back. There is a sequence of numbers and letters, which we will call commit hash, at the top of each entry in your history. If you copy this and type <code>git reset &lt;commit hash&gt;</code> then it will return us to that moment of our history. All of our more recent changes will be there, but they will be as if they had been just staged. Can use <code>git reset &lt;commit hash&gt; --hard</code> to reset to a previous point in time and delete all changes, but be very careful with that command as it can erase your history (in fact, I suggest not using it until you really know enough that you know it is what you want).</p>
+<h3 id="branching">Branching</h3>
+<p>A branch is essentially an specific version of your folder. You start with a main branch which is called master. When you create another branch, it is an exact replica of the branch it is being created from (typically master) and includes the full history of the repository. After creating a new branch you can make changes and this new branch will develop its own history (without changing the history of the original branch -- such as master). If you decide you like the changes that you made then you can bring them into the original branch.</p>
+<p>The command <code>git checkout</code> is used for a few different things, but we will mostly use it for switching between branches. When used with the <code>-b</code> flag, it creates a new branch and switches to it.</p>
+<p>Let's create a new branch in our repository. <code>git checkout -b test</code>. What has changed? Let's look at the output of <code>git branch</code>. Now let's make some changes in our branch.</p>
+<pre><code>&gt; echo &quot;New line&quot; &gt;&gt; README.md
+&gt; git add README.md
+&gt; git commit -m &quot;Branch update&quot;
+&gt; git log</code></pre>
+<p>We can see the history has changed and we have a new commit. Let's return to the master branch by typing <code>git checkout master</code>. Now check <code>git log</code>, notice that we no longer have the changes from our test branch.</p>
+<p>Imagine that we decided to bring those changes into our master branch. We could use the <code>git merge</code> command by typing <code>git merge test</code> which will merge the branch <code>test</code> into the current branch.</p>
+<h3 id="ignore-files">Ignore Files</h3>
+<p>Sometimes there are files that get created via an intermediate process (such as <code>.aux</code>, <code>.synctex</code>, etc... in latex). We often don't care about keeping track of these files. Another wonderful thing about <code>git</code> is that it allows us to ignore files we don't care about!</p>
+<p>We do this by creating a file called <code>.gitignore</code> at the initial directory of our git repository.</p>
+<p>For example, <code>echo *.garbage &gt;&gt; .gitignore</code>.</p>
+<p>Then create a file called <code>foo.garbage</code> with <code>touch foo.garbage</code>.</p>
+<p>Now type <code>git status</code>. Notice that this file doesn't show up! It is because it recognizes that anything with an ending of <code>.garbage</code> should be ignored (this is because <code>*</code> is treated as a wildcard. Read more about regular expressions or <a href="http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm">wild cards</a> for more information on how to use them).</p>
+<h2 id="resources-and-references">Resources and References</h2>
+<p>Below is a sequence of references to things that I have found useful. I suggest reading a few of them and at least skimming the majority of them. In particular, the software carpentry lectures on git are very useful for learning the basics -- The Pro Git book is the biblical reference for git and can likely answer any question you will have for at least a few years to come. I have organized both sections by how relevant/convincing I found the documents.</p>
+<h3 id="git-technical-references">Git Technical References</h3>
+<p><a href="http://swcarpentry.github.io/git-novice/02-setup.html">Software Carpentry: Git Lectures</a> <a href="http://git-scm.com/">Pro Git</a> <a href="https://www.git-tower.com/learn">Git Tower</a></p>
+<h3 id="why-git-references">Why Git References</h3>
+<p><a href="https://gist.github.com/magicseth/1951984">Difference between git and Dropbox</a> <a href="http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/">Version control for scientific research</a> <a href="http://openmetric.org/assets/slides/whygit/#/">Why Physicists Should Use Git Or Why Everyone Should Try Git</a> <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3639880/">Git can facilitate greater reproducibility and increased transparency in science</a></p>
