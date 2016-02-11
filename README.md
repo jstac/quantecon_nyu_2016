@@ -362,6 +362,8 @@ topic with me either way).
 * https://en.wikipedia.org/wiki/Stable_marriage_problem
 * https://ideas.repec.org/c/dge/qmrbcd/180.html
 * http://www.econ.yale.edu/smith/code.htm
+* Numbafy everything in random.py (ask me)
+* Numbafy optimization routines from SciPy (ask me)
 * https://sites.google.com/site/deancorbae/teaching
 * http://www.karenkopecky.net/
 * http://www.econ2.jhu.edu/people/ccarroll/
