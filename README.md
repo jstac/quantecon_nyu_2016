@@ -32,14 +32,11 @@ Table of Contents:
 
 ## News
 
-#### New Location!
-
 Please note that the lecture room has changed to **room 5-75 in the Stern Building**.
 
 The time is unchanged: Friday 9am--11am
 
 Please be sure to bring your laptop 
-
 
 
 
@@ -74,6 +71,7 @@ If you would like to prepare for the course before hand please consider
 * Do some exercises in real analysis if you are rusty
     * [These notes](http://math.louisville.edu/~lee/ira/IntroRealAnal.pdf) look like about the right level
 * Read the first 3 chapters of [RMT](https://mitpress.mit.edu/books/recursive-macroeconomic-theory-1) if you don't know any Markov chain theory or dynamic programming
+
 
 ## Syllabus 
 
@@ -330,7 +328,12 @@ subject to some change.
 See lecture 1 slides.
 
 
-##### Notes
+### Notes on the Class Project
+
+You should discuss your class project at least briefly with me before you
+start.  I am flexible about topics and mainly concerned with quality.
+
+#### Structure of the Project
 
 A completed class project is a GitHub repository containing
 
@@ -341,8 +344,29 @@ A completed class project is a GitHub repository containing
 
 Good projects demonstrate proficiency with 
 
-* good programming style
-* techical material discussed in the coure
+* Python or Julia
+* Good programming style
+* Ideally, the techical material discussed during the course
+
+#### Random Ideas
+
+Here are some very random ideas that I'll add to over the semester.  The links
+are to papers, code or discussions of algorithms, quantitative work, etc. that could
+be implemented in Python or Julia.  Feel free to use or ignore.  (Ideally you
+will find your own topic according to your own interests.  Please discuss your
+topic with me either way).
+
+* https://www.andrew.cmu.edu/user/sevin/sevin/Research_files/Supergame_March_2015_KJ.pdf
+* http://www.princeton.edu/~moll/HACTproject.htm
+* https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm
+* https://en.wikipedia.org/wiki/Stable_marriage_problem
+* https://ideas.repec.org/c/dge/qmrbcd/180.html
+* http://www.econ.yale.edu/smith/code.htm
+* https://sites.google.com/site/deancorbae/teaching
+* http://www.karenkopecky.net/
+* http://www.econ2.jhu.edu/people/ccarroll/
+
+
 
 
 
