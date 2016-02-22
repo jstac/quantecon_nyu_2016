@@ -367,7 +367,7 @@ topic with me either way).
 * https://sites.google.com/site/deancorbae/teaching
 * http://www.karenkopecky.net/
 * http://www.econ2.jhu.edu/people/ccarroll/
-
+* http://faculty.wcas.northwestern.edu/~kmatsu/Revisiting%20the%20model%20of%20credit%20cycles%20with%20Good%20and%20Bad%20Projects-2016-2.pdf (just accepted at JET)
 
 
 
