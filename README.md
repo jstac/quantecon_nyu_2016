@@ -352,23 +352,23 @@ Good projects demonstrate proficiency with
 
 Here are some very random ideas that I'll add to over the semester.  The links
 are to papers, code or discussions of algorithms, quantitative work, etc. that could
-be implemented in Python or Julia.  Feel free to use or ignore.  (Ideally you
+be implemented / replicated / improved using Python or Julia.  Feel free to use or ignore.  (Ideally you
 will find your own topic according to your own interests.  Please discuss your
 topic with me either way).
 
-* https://www.andrew.cmu.edu/user/sevin/sevin/Research_files/Supergame_March_2015_KJ.pdf
-* http://www.princeton.edu/~moll/HACTproject.htm
-* https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm
-* https://en.wikipedia.org/wiki/Stable_marriage_problem
-* https://ideas.repec.org/c/dge/qmrbcd/180.html
-* http://www.econ.yale.edu/smith/code.htm
+* [Computing equilibria in dynamic games](https://www.andrew.cmu.edu/user/sevin/sevin/Research_files/Supergame_March_2015_KJ.pdf)
+* [Heterogeneous agents in continuous time](http://www.princeton.edu/~moll/HACTproject.htm)
+* [Computing Nash equilibria](https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm)
+* [The stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem)
+* [Krusell-Smith](https://ideas.repec.org/c/dge/qmrbcd/180.html)
+* [Assorted code written by Tony Smith](http://www.econ.yale.edu/smith/code.htm)
 * Numbafy everything in random.py (ask me)
-* Numbafy optimization routines from SciPy (ask me)
-* https://sites.google.com/site/deancorbae/teaching
-* http://www.karenkopecky.net/
-* http://www.econ2.jhu.edu/people/ccarroll/
-* http://faculty.wcas.northwestern.edu/~kmatsu/Revisiting%20the%20model%20of%20credit%20cycles%20with%20Good%20and%20Bad%20Projects-2016-2.pdf (just accepted at JET)
-* https://ideas.repec.org/a/eee/eecrev/v37y1993i2-3p293-298.html
+* Numbafy some of the optimization / root finding routines from SciPy (ask me)
+* [Assorted code / ideas from Dean Corbae](https://sites.google.com/site/deancorbae/teaching)
+* [Assorted code / ideas from Karen Kopecky](http://www.karenkopecky.net/)
+* [Assorted code / ideas from Chris Carroll](http://www.econ2.jhu.edu/people/ccarroll/)
+* [A paper on dynamics by Kiminori Matsuyama](http://faculty.wcas.northwestern.edu/~kmatsu/Revisiting%20the%20model%20of%20credit%20cycles%20with%20Good%20and%20Bad%20Projects-2016-2.pdf (just accepted at JET))
+* [An econ geography paper by Paul Krugman](https://ideas.repec.org/a/eee/eecrev/v37y1993i2-3p293-298.html)
 
 
 
