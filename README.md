@@ -361,7 +361,7 @@ topic with me either way).
 * [Computing Nash equilibria](https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm)
 * [The stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem)
 * [Krusell-Smith](https://ideas.repec.org/c/dge/qmrbcd/180.html)
-* [Assorted code written by Tony Smith](http://www.econ.yale.edu/smith/code.htm)
+* [Krusell-Smith II](http://www.econ.yale.edu/smith/code.htm)
 * Numbafy everything in random.py (ask me)
 * Numbafy some of the optimization / root finding routines from SciPy (ask me)
 * [Assorted code / ideas from Dean Corbae](https://sites.google.com/site/deancorbae/teaching)
