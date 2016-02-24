@@ -339,6 +339,7 @@ suggestions:
 * Unit tests (see, e.g., [here](http://docs.python-guide.org/en/latest/writing/tests/) or [here](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/))
 * Alternative plotting libraries and their strengths / weaknesses
 * [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) (a well-written Julia library)
+* Some features of vim or vim plug-in(s) that you find particularly useful
 
 
 ### Notes on the Class Project
