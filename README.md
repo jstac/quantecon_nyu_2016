@@ -327,6 +327,19 @@ subject to some change.
 
 See lecture 1 slides.
 
+### Notes on Class Presentations
+
+All students enrolled in the course must give a 20 minute presentation.
+The presentation can be on your class project or on a code library or
+algorithm in Julia or Python that you find interesting.  Here are some
+suggestions:
+
+* Profiling (see, e.g., [this link](http://pynash.org/2013/03/06/timing-and-profiling.html) or [this one](https://zapier.com/engineering/profiling-python-boss/))
+* [scikit-learn](http://scikit-learn.org/stable/) (a machine learning library)
+* Unit tests (see, e.g., [here](http://docs.python-guide.org/en/latest/writing/tests/) or [here](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/))
+* Alternative plotting libraries and their strengths / weaknesses
+* [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) (a well-written Julia library)
+
 
 ### Notes on the Class Project
 
