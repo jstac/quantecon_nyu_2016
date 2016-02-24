@@ -385,7 +385,7 @@ topic with me either way).
 * [Assorted code / ideas from Chris Carroll](http://www.econ2.jhu.edu/people/ccarroll/)
 * [A paper on dynamics by Kiminori Matsuyama](http://faculty.wcas.northwestern.edu/~kmatsu/Revisiting%20the%20model%20of%20credit%20cycles%20with%20Good%20and%20Bad%20Projects-2016-2.pdf)
 * [An econ geography paper by Paul Krugman](https://ideas.repec.org/a/eee/eecrev/v37y1993i2-3p293-298.html)
-
+* Routines from Miranda and Fackler's [CompEcon](http://www4.ncsu.edu/~pfackler/compecon/toolbox.html) toolkit and [textbook](http://www4.ncsu.edu/~pfackler/compecon/)
 
 
 
