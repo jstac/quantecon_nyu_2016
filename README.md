@@ -340,6 +340,8 @@ suggestions:
 * Alternative plotting libraries and their strengths / weaknesses
 * [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) (a well-written Julia library)
 * Some features of vim or vim plug-in(s) that you find particularly useful
+* Techniques for parallel processing
+* Interfacing with C and Fortran code in either Python or Julia
 
 
 ### Notes on the Class Project
