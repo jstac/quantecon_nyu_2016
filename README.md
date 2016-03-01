@@ -376,6 +376,7 @@ topic with me either way).
 * [Heterogeneous agents in continuous time](http://www.princeton.edu/~moll/HACTproject.htm)
 * [Computing Nash equilibria](https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm)
 * [The stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem)
+* [Behavioral Macroeconomics via Sparse Dynamic Programming](http://pages.stern.nyu.edu/~xgabaix/papers/brdp.pdf)
 * [Krusell-Smith](https://ideas.repec.org/c/dge/qmrbcd/180.html)
 * [Krusell-Smith II](http://www.econ.yale.edu/smith/code.htm)
 * Numbafy everything in random.py (ask me)
