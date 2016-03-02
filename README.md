@@ -227,11 +227,15 @@ subject to some change.
 #### Julia
 
 
-* General
+* General, tutorials
     * http://julialang.org/
     * http://www.slideshare.net/acidflask/an-introduction-to-julia
     * http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
     * http://computationalmodelling.bitbucket.org/tools/Julia.html
+    * http://samuelcolvin.github.io/JuliaByExample/
+    * https://github.com/dpsanders/hands_on_julia
+    * http://bogumilkaminski.pl/files/julia_express.pdf
+    * https://en.wikibooks.org/wiki/Introducing_Julia
 * Libraries
     * [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl)
     * [Distributions.jl](https://github.com/JuliaStats/Distributions.jl)
