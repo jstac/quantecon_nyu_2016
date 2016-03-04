@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+wget -O julia_binary.tar.gz https://julialang.s3.amazonaws.com/bin/linux/x64/0.4/julia-0.4-latest-linux-x86_64.tar.gz
+
+mkdir -p $HOME/src
+
+rm -rf $HOME/src/julia*
+mkdir -p $HOME/src/julia
+tar -C $HOME/src/julia -zxf julia_binary.tar.gz --strip-components=1
+rm julia_binary.tar.gz
+
+# prepend julia to path
+echo "Adding julia to path"
+echo "export PATH=$HOME/src/julia/bin:$PATH" >> $HOME/.bashrc
