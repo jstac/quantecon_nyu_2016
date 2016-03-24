@@ -353,6 +353,8 @@ suggestions:
 You should discuss your class project at least briefly with me before you
 start.  I am flexible about topics and mainly concerned with quality.
 
+All projects are due by midnight on June 3rd.
+
 #### Structure of the Project
 
 A completed class project is a GitHub repository containing
