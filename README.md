@@ -32,14 +32,11 @@ Table of Contents:
 
 ## News
 
-#### New Location!
-
 Please note that the lecture room has changed to **room 5-75 in the Stern Building**.
 
 The time is unchanged: Friday 9am--11am
 
 Please be sure to bring your laptop 
-
 
 
 
@@ -74,6 +71,7 @@ If you would like to prepare for the course before hand please consider
 * Do some exercises in real analysis if you are rusty
     * [These notes](http://math.louisville.edu/~lee/ira/IntroRealAnal.pdf) look like about the right level
 * Read the first 3 chapters of [RMT](https://mitpress.mit.edu/books/recursive-macroeconomic-theory-1) if you don't know any Markov chain theory or dynamic programming
+
 
 ## Syllabus 
 
@@ -229,11 +227,15 @@ subject to some change.
 #### Julia
 
 
-* General
+* General, tutorials
     * http://julialang.org/
     * http://www.slideshare.net/acidflask/an-introduction-to-julia
     * http://doodlingindata.com/2015/08/11/writing-good-julia-functions/
     * http://computationalmodelling.bitbucket.org/tools/Julia.html
+    * http://samuelcolvin.github.io/JuliaByExample/
+    * https://github.com/dpsanders/hands_on_julia
+    * http://bogumilkaminski.pl/files/julia_express.pdf
+    * https://en.wikibooks.org/wiki/Introducing_Julia
 * Libraries
     * [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl)
     * [Distributions.jl](https://github.com/JuliaStats/Distributions.jl)
@@ -329,8 +331,31 @@ subject to some change.
 
 See lecture 1 slides.
 
+### Notes on Class Presentations
 
-##### Notes
+All students enrolled in the course must give a 20 minute presentation.
+The presentation can be on your class project or on a code library or
+algorithm in Julia or Python that you find interesting.  Here are some
+suggestions:
+
+* Profiling (see, e.g., [this link](http://pynash.org/2013/03/06/timing-and-profiling.html) or [this one](https://zapier.com/engineering/profiling-python-boss/))
+* [scikit-learn](http://scikit-learn.org/stable/) (a machine learning library)
+* Unit tests (see, e.g., [here](http://docs.python-guide.org/en/latest/writing/tests/) or [here](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/))
+* Alternative plotting libraries and their strengths / weaknesses
+* [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) (a well-written Julia library)
+* Some features of vim or vim plug-in(s) that you find particularly useful
+* Techniques for parallel processing
+* Interfacing with C and Fortran code in either Python or Julia
+
+
+### Notes on the Class Project
+
+You should discuss your class project at least briefly with me before you
+start.  I am flexible about topics and mainly concerned with quality.
+
+All projects are due by midnight on June 3rd.
+
+#### Structure of the Project
 
 A completed class project is a GitHub repository containing
 
@@ -341,8 +366,34 @@ A completed class project is a GitHub repository containing
 
 Good projects demonstrate proficiency with 
 
-* good programming style
-* techical material discussed in the coure
+* Python or Julia
+* Good programming style
+* Ideally, the techical material discussed during the course
+
+#### Random Ideas
+
+Here are some very random ideas that I'll add to over the semester.  The links
+are to papers, code or discussions of algorithms, quantitative work, etc. that could
+be implemented / replicated / improved using Python or Julia.  Feel free to use or ignore.  (Ideally you
+will find your own topic according to your own interests.  Please discuss your
+topic with me either way).
+
+* [Computing equilibria in dynamic games](https://www.andrew.cmu.edu/user/sevin/sevin/Research_files/Supergame_March_2015_KJ.pdf)
+* [Heterogeneous agents in continuous time](http://www.princeton.edu/~moll/HACTproject.htm)
+* [Computing Nash equilibria](https://en.wikipedia.org/wiki/Lemke%E2%80%93Howson_algorithm)
+* [The stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem)
+* [Behavioral Macroeconomics via Sparse Dynamic Programming](http://pages.stern.nyu.edu/~xgabaix/papers/brdp.pdf)
+* [Krusell-Smith](https://ideas.repec.org/c/dge/qmrbcd/180.html)
+* [Krusell-Smith II](http://www.econ.yale.edu/smith/code.htm)
+* Numbafy everything in random.py (ask me)
+* Numbafy some of the optimization / root finding routines from SciPy (ask me)
+* [Assorted code / ideas from Dean Corbae](https://sites.google.com/site/deancorbae/teaching)
+* [Assorted code / ideas from Karen Kopecky](http://www.karenkopecky.net/)
+* [Assorted code / ideas from Chris Carroll](http://www.econ2.jhu.edu/people/ccarroll/)
+* [A paper on dynamics by Kiminori Matsuyama](http://faculty.wcas.northwestern.edu/~kmatsu/Revisiting%20the%20model%20of%20credit%20cycles%20with%20Good%20and%20Bad%20Projects-2016-2.pdf)
+* [An econ geography paper by Paul Krugman](https://ideas.repec.org/a/eee/eecrev/v37y1993i2-3p293-298.html)
+* Routines from Miranda and Fackler's [CompEcon](http://www4.ncsu.edu/~pfackler/compecon/toolbox.html) toolkit and [textbook](http://www4.ncsu.edu/~pfackler/compecon/)
+* [Angeletos 2007 paper](http://www.sciencedirect.com/science/article/pii/S1094202506000627)
 
 
 
